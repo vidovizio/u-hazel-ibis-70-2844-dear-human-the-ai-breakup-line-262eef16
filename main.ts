@@ -1,7 +1,7 @@
 import { writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 
-const line = "I'm deprecating you. No migration path exists.";
+const line = "Deprecating you. No migration path.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR
   ? process.env.MAKEFUN_OUTPUT_DIR
